@@ -1,0 +1,23 @@
+{
+  "name": "test-practice-with-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "basic-functions.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frobii/test-practice-with-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frobii/test-practice-with-jest/issues"
+  },
+  "homepage": "https://github.com/Frobii/test-practice-with-jest#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
