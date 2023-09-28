@@ -72,11 +72,27 @@ const testFunctions = () => {
         };
     }
 
+    function analyzeArray(array) {
+        const length = array.length;
+        const sum = array.reduce((partialSum, a) => partialSum + a, 0);
+        const average = sum / length;
+        const min = Math.min(...array)
+        const max = Math.max(...array)
+
+        return {
+            average,
+            min,
+            max,
+            length
+        }
+    }
+
     return {
         capitalize,
         reverse,
         calculator,
         caesarCipher,
+        analyzeArray,
     }
 }
 
